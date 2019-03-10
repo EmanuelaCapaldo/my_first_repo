@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1552240449 source:c:\users\gerardo\desktop\scuola emi\informatica\stringa\main.cpp
+	<iostream>
+	<string.h>
+	<cstdio>
+	<math.h>
+
