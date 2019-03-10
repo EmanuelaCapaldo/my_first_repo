@@ -1,22 +1,9 @@
 #include <iostream>
 #include <string.h>
-#include <cstdio>//per scanf e prinft
+#include <cstdio>
 #include <math.h>
 
 using namespace std;
-
-bool isPalindrome(string);
-
-int main()
-{
-
-
-    cout << isPalindrome("alcsa") << endl;
-    cout << "trial with this program" << endl;
-
-    return 0;
-}
-
 
 bool isPalindrome(string parola) {
 
@@ -34,3 +21,13 @@ bool isPalindrome(string parola) {
     }
     return true;
 }
+
+int main()
+{
+    cout << isPalindrome("alcsa") << endl;
+    cout << "chaning log message" << endl;
+
+    return 0;
+}
+
+
