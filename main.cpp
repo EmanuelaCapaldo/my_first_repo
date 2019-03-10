@@ -14,11 +14,6 @@ int main()
     cout << isPalindrome("alcsa") << endl;
     cout << "trial with this program" << endl;
 
-  //  char *stringa;
-  //  cout << "Inserire stringa: " <<endl;
-  //  scanf("%s", &stringa);//l'utente inserisce la stringa
-  //  cout << stringa << endl;
-
     return 0;
 }
 
@@ -39,18 +34,3 @@ bool isPalindrome(string parola) {
     }
     return true;
 }
-
-
-
-/*void palindromo(char *stringa[]){
-    for(int i=0; i<=N; i++){
-        for(int j=20; i<=N; j--){
-            bool nome1=true, nome2=false;
-            if(stringa[i]==stringa[N-j]) {
-                cout << stringa << " = " << nome1 << endl;
-            } else {
-                cout << stringa << " = " << nome2 << endl;
-            }
-        }
-    }
-}*/
